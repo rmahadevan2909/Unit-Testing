@@ -1,0 +1,17 @@
+{
+  "name": "unitestingtask",
+  "version": "0.0.1",
+  "description": "Unit testing task",
+  "scripts": {
+    "test": "cross-env TZ=UTC jest --coverage "
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "29.7.0",
+    "timezoned-date": "3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0"
+  }
+}
